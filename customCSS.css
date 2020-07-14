@@ -1,0 +1,33 @@
+body {
+    font-family:Montserrat, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+    max-width: 97%;
+    max-height: 97%;
+}
+
+.col {
+    margin:auto;
+}
+
+.row {
+    margin:auto;
+}
+
+.social-link {
+    color: #484848;
+    font-size: 1.5rem;
+}
+
+.portfolio-item:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.portfolio-body {
+    text-align: left;
+}
