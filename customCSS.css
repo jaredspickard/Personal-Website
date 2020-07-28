@@ -33,8 +33,12 @@ img {
     font-weight: bold;
 }
 
-.portfolio-body {
-    text-align: left;
+.portfolio-language-key {
+    border: 0px;
+    width: 12px;
+    height: 12px;
+    border-radius:50%;
+    color: transparent;
 }
 
 .timeline {
@@ -74,7 +78,7 @@ img {
     border: none;
 }
 
-.timeline-element {
+.timeline-dot {
     background-color: #cdd6e6;
     color: #cdd6e6;
     border: 0px;
@@ -87,7 +91,7 @@ img {
 }
 
 @media only screen and (min-width: 1170px) {
-    .timeline-element {
+    .timeline-dot {
         background-color: #cdd6e6;
         color: #cdd6e6;
         border: 0px;
