@@ -50,6 +50,15 @@
 
     <!-- Portfolio Section -->
     <div class="row" style="text-align: center; width:85%">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
+                data-target="#C4AIModal">
+                <img src="./images/c4ai.png" class="card-img-top mx-auto" alt="Connect 4 AI logo">
+                <div class="card-body">
+                    <h4 class="card-title">Connect4<span style="color:#ffb700">A</span><span style="color:#d80808">I</span></h4>
+                </div>
+            </div>
+        </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
                 data-target="#SOISModal">
@@ -59,15 +68,6 @@
                 </div>
             </div>
         </div>
-        <!--div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
-                data-target="#SOISModal">
-                <img src="./images/AdibiLogo.png" class="card-img-top mx-auto" alt="Adibi IP Group logo">
-                <div class="card-body">
-                    <h4 class="card-title">Docket Management System</h4>
-                </div>
-            </div>
-        </div-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card mx-auto border-white portfolio-item" style="width: 19rem;margin:1rem" data-toggle="modal"
                 data-target="#MauricioModal">
@@ -108,6 +108,36 @@
     </div>
 
     <!------------------------------- Modals ------------------------------------->
+
+    <!-- C4AI Modal -->
+
+    <div class="modal fade" id="C4AIModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Connect4AI</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6 style="text-align: left">
+                        In August 2020, I decided that I wanted to gain more experience working with full stack applications, so I began working on a project called Connect4AI. Connect4AI is a flask web app that I built entirely from scratch, learning flask throughout the process. This web app allows users to play the popular game Connect4 against another user on the same device, or against an AI. The AI relies on the minimax algorithm with alpha-beta pruning in order to decide its moves, with various search depths resulting in various difficulties. I am also in the process of implementing a leaderboard feature which will rely on a Postgres database, which will rank players based on the following factors (for games that they win): AI difficulty, number of moves, amount of time taken.
+                    </h6>
+                </div>
+                <div class="modal-footer" style="justify-content: space-between">
+                    <a target="_blank" href="https://github.com/jaredspickard/Connect4AI"><i class="fa fa-github social-link"
+                        style="float:left"></i></a>
+                    <a type="button" class="btn btn-outline-dark" target="_blank" href="https://connect4ai.wl.r.appspot.com">
+                        <span class="btn-inner--text">Visit the Site</span>
+                        <span class="btn-inner--icon"><i class="fas fa-globe-americas"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        x
+    </div>
 
     <!-- SOIS Modal -->
 
