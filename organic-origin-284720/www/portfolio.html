@@ -52,6 +52,15 @@
     <div class="row" style="text-align: center; width:85%">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
+                data-target="#CovidTestingModal">
+                <img src="./images/covidMask.png" class="card-img-top mx-auto" alt="Connect 4 AI logo">
+                <div class="card-body">
+                    <h4 class="card-title">COVID 19 Testing Tracker</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
                 data-target="#C4AIModal">
                 <img src="./images/c4ai.png" class="card-img-top mx-auto mt-5 mb-3" alt="Connect 4 AI logo">
                 <div class="card-body">
@@ -69,15 +78,6 @@
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="card mx-auto border-white portfolio-item" style="width: 19rem;margin:1rem" data-toggle="modal"
-                data-target="#MauricioModal">
-                <img src="./images/mauricio.png" class="card-img-top mx-auto" alt="Screenshot of Mauricio game">
-                <div class="card-body">
-                    <h4 class="card-title">Mauricio</h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card mx-auto border-white portfolio-item" style="width: 19rem; margin:1rem" data-toggle="modal"
                 data-target="#MLModal">
                 <img src="./images/NeuralNet.png" class="card-img-top mx-auto" alt="Image of a Neural Network">
@@ -88,8 +88,17 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card mx-auto border-white portfolio-item" style="width: 19rem;margin:1rem" data-toggle="modal"
+                data-target="#MauricioModal">
+                <img src="./images/mauricio.png" class="card-img-top mx-auto" alt="Screenshot of Mauricio game">
+                <div class="card-body">
+                    <h4 class="card-title">Mauricio</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card mx-auto border-white portfolio-item" style="width: 19rem;margin:1rem" data-toggle="modal"
                 data-target="#WebsiteModal">
-                <img src="./images/JS.png" class="card-img-top mx-auto mt-4 mb-4" alt="The letters J and S" style="width:85%">
+                <img src="./images/JS.png" class="card-img-top mx-auto mt-4 mb-3" alt="The letters J and S" style="width:85%">
                 <div class="card-body">
                     <h4 class="card-title">Personal Website</h4>
                 </div>
@@ -108,6 +117,41 @@
     </div>
 
     <!------------------------------- Modals ------------------------------------->
+
+    <!-- Covid Testing Modal -->
+
+    <div class="modal fade" id="CovidTestingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">COVID 19 Testing Tracker</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="m-2" style="text-align: left">
+                        In September of 2020, UC Berkeley announced that they would be providing biweekly COVID surveillance testing to students living in group housing such as fraternities, sororities, and co-ops. In an effort to ensure that members of my chapter participate in this biweekly testing, I have begun developing a service that simplifies the management of tracking individual testing activity.
+                    </h6>
+                    <h6 class="m-2" style="text-align: left">
+                        This service is a full-stack flask web app (HTML, CSS, JavaScript, Python, PostgreSQL) that relies on user accounts to upload information related to their scheduled tests, and it sends me weekly reports detailing the testing activity of my chapter. The service also sends email reminders to members that have yet to sign up for tests by a certain point in the week (currently Wednesday afternoon). I hope that these features (along with links to COVID 19 resources and step-by-step guides detailing how to sign up for testing) not only simplify the management of testing compliance, but also help to improve COVID safety within my chapter as a whole.
+                    </h6>
+                    <h6 class="m-2" style="text-align: left">
+                        I am currently in the process of discussing the possibility of offering this service to other chapters and potentially any other group at Berkeley that is interested, though I would certainly have to talk to some legal experts in regards to privacy law before I commercialize it in any capacity.
+                    </h6>
+                </div>
+                <div class="modal-footer" style="justify-content: space-between">
+                    <a target="_blank" href="https://github.com/jaredspickard/covid-testing-tracker"><i class="fa fa-github social-link"
+                        style="float:left"></i></a>
+                    <!--a type="button" class="btn btn-outline-dark" target="_blank" href="https://connect4ai.wl.r.appspot.com">
+                        <span class="btn-inner--text">Visit the Site</span>
+                        <span class="btn-inner--icon"><i class="fas fa-globe-americas"></i></span>
+                    </a-->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- C4AI Modal -->
 
@@ -136,7 +180,6 @@
                 </div>
             </div>
         </div>
-        x
     </div>
 
     <!-- SOIS Modal -->
@@ -164,7 +207,6 @@
                 </div>
             </div>
         </div>
-        x
     </div>
 
     <!-- Mauricio Modal -->
@@ -194,7 +236,6 @@
                 </div>
             </div>
         </div>
-        x
     </div>
 
     <!-- ML Modal -->
@@ -220,7 +261,6 @@
                 </div>
             </div>
         </div>
-        x
     </div>
 
     <!-- Website Modal -->
@@ -243,7 +283,6 @@
                 </div>
             </div>
         </div>
-        x
     </div>
 
 
