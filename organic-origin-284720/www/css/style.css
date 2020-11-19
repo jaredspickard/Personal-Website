@@ -2,6 +2,7 @@ body {
     font-family:Montserrat, sans-serif;
     font-weight: 400;
     text-align: center;
+    margin: auto;
 }
 
 img {
@@ -15,6 +16,28 @@ img {
 
 .row {
     margin:auto;
+}
+
+.page-content {
+    width: 94%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.accomodate-footer {
+    min-height: 100%;
+    margin-bottom: -53px;
+}
+
+.accomodate-footer:after {
+    height: 53px;
+    content: "";
+    display: block;
+}
+
+.footer-bottom {
+    width:100%;
+    height:53px;
 }
 
 .social-link {
